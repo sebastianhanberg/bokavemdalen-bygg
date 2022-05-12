@@ -5,7 +5,7 @@ import GoogleMaps from './GoogleMaps'
 function Footer() {
   return (
 
-    <div className="p-16 sm:p-16 bg-dark-blue">
+    <div id="footer" className="p-16 sm:p-16 bg-dark-blue">
 
       <div className="container mx-auto md:flex md:justify-between">
 

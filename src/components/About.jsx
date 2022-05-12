@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 function About() {
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} >
-            <div className="px-4 py-16 mt-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div id="about" className="px-4 py-16 mt-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
                     <div className="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6">
                         <img

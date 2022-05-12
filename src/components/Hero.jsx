@@ -1,14 +1,15 @@
 import React from 'react'
 import hero from '../images/bygg1.jpg'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import logo from '../assets/logo3.png'
+import '../App.css'
 import 'flowbite';
 
 
 function Navbar() {
   return (
 
-    <div class="relative font-serif">
+    <div id="main" class="relative font-serif">
       <img src={hero} class="absolute inset-0 object-cover w-full h-full" alt="" />
       <div class="relative bg-gray-dark bg-opacity-75">
 
@@ -16,8 +17,8 @@ function Navbar() {
 
         <nav class="bg-dark-blue bg-opacity-25 shadow-md py-6 md:px-10 px-7">
           <div class="container flex flex-wrap justify-between items-center mx-auto">
-            <Link to="/" class="flex items-center">
-              <img src={logo} class="mr-3 h-8 sm:h-16" alt="Logo" />
+            <Link to="main" smooth={true} duration={1500} class="flex items-center ">
+              <img src={logo} class="cursor-pointer home-link mr-3 h-8 sm:h-16" alt="Logo" />
               <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
             </Link>
             <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex justify-center items-center ml-3 text-gray-400 rounded-lg md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:text-gray-400 dark:hover:text-white dark:focus:ring-gray-500" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -29,7 +30,7 @@ function Navbar() {
               <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                 <li>
                   {/* <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Hem</a> */}
-                  <Link to="/" className="block py-2 pr-4 pl-3 text-white text-sm font-medium opacity-90  rounded md:bg-transparent md:hover:text-boka-orange duration-700 transistion md:p-0 dark:hover:bg-gray-600 md:dark:bg-transparent" aria-current="page">Hem</Link>
+                  <Link to="main" smooth={true} duration={1500} className="cursor-pointer block py-2 pr-4 pl-3 text-white text-sm font-medium opacity-90  rounded md:bg-transparent md:hover:text-boka-orange duration-700 transistion md:p-0 dark:hover:bg-gray-600 md:dark:bg-transparent" aria-current="page">Hem</Link>
                 </li>
                 <li>
                   <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex justify-between items-center py-2 pr-4 pl-3 w-full text-white opacity-90 border-b 
@@ -43,31 +44,31 @@ function Navbar() {
 
                       <li>
                         {/* <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Våra tjänster</a> */}
-                        <Link to="/tjanster" className="block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Våra tjänster</Link>
+                        <Link to="tjanster" smooth={true} duration={1500} className="cursor-pointer block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Våra tjänster</Link>
                       </li>
                       <li>
                         {/* <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Referensprojekt</a> */}
-                        <Link to="/projekt" className="block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Referensprojekt</Link>
+                        <Link to="projekt" smooth={true} duration={1500} className="cursor-pointer block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Referensprojekt</Link>
                       </li>
                     </ul>
 
                   </div>
                 </li>
                 <li>
-                  <Link to="/about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+                  <Link to="about" smooth={true} duration={1500} class="cursor-pointer  block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium  opacity-90 transistion md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Om oss</Link>
 
                 </li>
 
                 <li>
-                  <Link to="/about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+                  <Link to="about" smooth={true} duration={1500} class="cursor-pointer  block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium opacity-90 transistion md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Offert</Link>
 
                 </li>
                 <li>
-                  <Link to="/about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+                  <Link to="about" smooth={true} duration={1500} class="cursor-pointer  block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium opacity-90 md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Kontakt</Link>
                 </li>
@@ -94,12 +95,12 @@ function Navbar() {
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
               </p>
-              <a href="/" aria-label="" class="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-white hover:text-grey">
+              <Link to="about" smooth={true} duration={1500} aria-label="" class="cursor-pointer inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-white hover:text-grey">
                 Läs mer
                 <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
                   <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
 
 

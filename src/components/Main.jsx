@@ -4,7 +4,7 @@ import bygg1 from '../images/bygg1.jpg'
 import bygg2 from '../images/bygg2.jpg'
 import bygg3 from '../images/bygg3.jpg'
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 
 function Main() {
@@ -22,7 +22,7 @@ function Main() {
           <div class="flex flex-wrap w-full mb-20">
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Referensprojekt</h1>
-              <div class="h-1 w-20 bg-exentor-yellow rounded"></div>
+              <div class="h-1 w-20 bg-boka-orange rounded"></div>
             </div>
             <p className="text-gray-700 lg:text-base text-sm lg:max-w-md">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore molestias vero incidunt illo cumque veritatis earum, repudiandae veniam dolor tempore doloribus temporibus tempora ea nostrum odio quo nobis qui ratione!</p>
           </div>

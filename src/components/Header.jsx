@@ -1,7 +1,8 @@
 import React from 'react'
+import '../App.css'
 import 'flowbite';
 import logo from '../assets/logo3.png'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 
 function Header() {
@@ -9,8 +10,8 @@ function Header() {
 
     <nav class="bg-dark-blue shadow-lg py-6 md:px-10 px-7">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
-        <Link to="/" class="flex items-center">
-          <img src={logo} class="mr-3 h-8 sm:h-16" alt="Logo" />
+        <Link to="main" smooth={true} duration={1000} className="home-link flex items-center cursor-pointer">
+          <img src={logo} class="cursor-pointer mr-3 h-8 sm:h-16" alt="Logo" />
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
         </Link>
         <button data-collapse-toggle="mobile-menu" type="button" class="inline-flex justify-center items-center ml-3 text-gray-400 rounded-lg md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:text-gray-400 dark:hover:text-white dark:focus:ring-gray-500" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -22,7 +23,7 @@ function Header() {
           <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
               {/* <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Hem</a> */}
-              <Link to="/" className="block py-2 pr-4 pl-3 text-white text-sm font-medium opacity-90  rounded md:bg-transparent md:hover:text-boka-orange duration-700 transistion md:p-0 dark:hover:bg-gray-600 md:dark:bg-transparent" aria-current="page">Hem</Link>
+              <Link to="main" className=" cursor-pointer block py-2 pr-4 pl-3 text-white text-sm font-medium opacity-90  rounded md:bg-transparent md:hover:text-boka-orange duration-700 transistion md:p-0 dark:hover:bg-gray-600 md:dark:bg-transparent" aria-current="page">Hem</Link>
             </li>
             <li>
               <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex justify-between items-center py-2 pr-4 pl-3 w-full text-white opacity-90 border-b 
@@ -36,31 +37,31 @@ function Header() {
 
                   <li>
                     {/* <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Våra tjänster</a> */}
-                    <Link to="/tjanster" className="block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Våra tjänster</Link>
+                    <Link to="tjanster" className="cursor-pointer block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Våra tjänster</Link>
                   </li>
                   <li>
                     {/* <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Referensprojekt</a> */}
-                    <Link to="/projekt" className="block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Referensprojekt</Link>
+                    <Link to="projekt" className="cursor-pointer block py-2 px-4 text-sm hover:bg-gray-100 text-white text-opacity-90 md:hover:text-boka-orange duration-700 transistion font-medium opacity-90 dark:hover:bg-gray-600 dark:hover:text-white">Referensprojekt</Link>
                   </li>
                 </ul>
 
               </div>
             </li>
             <li>
-              <Link to="/about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+              <Link to="about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium opacity-90 transistion md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Om oss</Link>
 
             </li>
 
             <li>
-              <Link to="/about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+              <Link to="about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium opacity-90 transistion md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Offert</Link>
 
             </li>
             <li>
-              <Link to="/about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+              <Link to="about" class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium opacity-90 md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Kontakt</Link>
             </li>
