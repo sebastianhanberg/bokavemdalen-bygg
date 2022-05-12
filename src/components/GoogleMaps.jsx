@@ -12,7 +12,7 @@ export default function GoogleMaps() {
 }
 
 function MapGoogle() {
-    const center = useMemo(() => ({ lat: 59.344631, lng: 18.042589 }), []);
+    const center = useMemo(() => ({ lat: 62.442800, lng: 13.855830 }), []);
     return <GoogleMap zoom={12} center={center} mapContainerClassName="map-container">
         <Marker position={center} />
     </GoogleMap>

@@ -17,7 +17,7 @@ function About() {
                     </div>
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-                            Exentors historia
+                            Bokavemdalens historia
                         </h2>
                         <p className="text-sm text-gray-700 md:text-base">
                             Exentor bygger och anpassar alltifrån bostäder, skolor, samhällsfastigheter och kommersiella fastigheter i Stockholm. Vi erbjuder helhetslösningar inom entreprenad, styr och reglerteknik, projektutveckling, fastighetsunderhåll och inredningssnickeri. Koncernen startade i Stockholm 1963 och omsätter cirka 20 miljoner kronor.

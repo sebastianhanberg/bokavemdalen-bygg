@@ -18,7 +18,7 @@ function App() {
     <div className='App' >
       <AnimatePresence exitBeforeEnter>
       
-      <Header/>
+      
       <Hero />
       <Routes>
         <Route exact path="/" element={ <HomePage/>}/>

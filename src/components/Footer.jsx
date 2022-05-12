@@ -5,12 +5,12 @@ import GoogleMaps from './GoogleMaps'
 function Footer() {
   return (
 
-    <div className="p-16 sm:p-16 bg-gray-dark">
+    <div className="p-16 sm:p-16 bg-dark-blue">
 
       <div className="container mx-auto md:flex md:justify-between">
 
         <div>
-          <h2 className="mb-6 text-tiny font-bold text-white uppercase dark:text-white">Om Exentor</h2>
+          <h2 className="mb-6 text-tiny font-bold text-white uppercase dark:text-white">Om Bokavemdalen</h2>
 
           <p className="w-56 text-white mb-12 sm:mb-0 text-xs">Exentor bygger och anpassar alltifrån bostäder, skolor, samhällsfastigheter och kommersiella
             fastigheter i Stockholm. Vi erbjuder helhetslösningar inom entreprenad, styr och reglerteknik, projektutveckling, fastighetsunderhåll
@@ -52,7 +52,7 @@ function Footer() {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="container mx-auto sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-white sm:text-center dark:text-gray-400">© 2022 Exentor. All rights reserved
+        <span className="text-sm text-white sm:text-center dark:text-gray-400">© 2022 Bokavemdalen Bygg AB. All rights reserved
         </span>
 
       </div>
