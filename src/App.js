@@ -1,11 +1,8 @@
 
 import './App.css';
-import HomePage from './components/HomePage'
-import { Routes, Route } from "react-router-dom"
 import Tjanster from './components/Tjanster';
 import About from './components/About';
 import Projekt from './components/Projekt';
-import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import { AnimatePresence } from 'framer-motion'

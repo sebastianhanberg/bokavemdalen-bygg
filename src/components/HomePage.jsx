@@ -1,7 +1,7 @@
 import '../App.css';
 import Main from './Main';
 import { motion } from 'framer-motion'
-import Hero from './Hero'
+
 
 function HomePage() {
 
