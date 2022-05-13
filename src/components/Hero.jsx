@@ -70,7 +70,7 @@ function Navbar() {
                 </li>
 
                 <li>
-                  <Link to="about" smooth={true} duration={1500} class="cursor-pointer  block py-2 pr-4 pl-3 text-white border-b border-gray-100 
+                  <Link to="offert" smooth={true} duration={1500} class="cursor-pointer  block py-2 pr-4 pl-3 text-white border-b border-gray-100 
           hover:bg-gray-50 md:hover:bg-transparent md:border-0 text-sm md:hover:text-boka-orange duration-700 font-medium opacity-90 transistion md:p-0 
           dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Offert</Link>
 

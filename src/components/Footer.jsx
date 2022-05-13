@@ -52,8 +52,16 @@ function Footer() {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="container mx-auto sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-white sm:text-center dark:text-gray-400">© 2022 Bokavemdalen Bygg AB. All rights reserved
-        </span>
+        <div>
+
+          <span className="text-sm text-white sm:text-center dark:text-gray-400">© 2022 Bokavemdalen Bygg AB. All rights reserved
+          </span>
+        </div>
+        <div>
+
+          <span className="text-sm text-white sm:text-center dark:text-gray-400">HÄR SKA INSTAGRAM OCH FACEBOOKLÄNK LIGGA
+          </span>
+        </div>
 
       </div>
     </div >

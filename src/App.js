@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import Footer from './components/Footer';
 import { AnimatePresence } from 'framer-motion'
 import Main from './components/Main';
+import Offert from './components/Offert';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Tjanster/>
       <Projekt />
       <About />      
+      <Offert/>
       <Footer/>
       
       
