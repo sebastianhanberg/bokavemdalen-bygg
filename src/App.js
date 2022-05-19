@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import { AnimatePresence } from 'framer-motion'
 import Main from './components/Main';
 import Offert from './components/Offert';
+import Nav from './components/Nav';
 
 
 
@@ -17,14 +18,16 @@ function App() {
     <div className='App' >
      
       
-      
+      <AnimatePresence>
+      <Nav />
       <Hero />
-      <Main />
+      {/* <Main /> */}
       <Tjanster/>
-      <Projekt />
+      {/* <Projekt /> */}
       <About />      
       <Offert/>
       <Footer/>
+      </AnimatePresence>
       
       
     </div>

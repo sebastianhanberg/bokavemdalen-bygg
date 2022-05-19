@@ -8,7 +8,7 @@ import { Link } from 'react-scroll'
 function Header() {
   return (
 
-    <nav class="bg-dark-blue shadow-lg py-6 md:px-10 px-7">
+    <nav class="bg-black shadow-lg py-6 md:px-10 px-7">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <Link to="main" smooth={true} duration={1000} className="home-link flex items-center cursor-pointer">
           <img src={logo} class="cursor-pointer mr-3 h-8 sm:h-16" alt="Logo" />

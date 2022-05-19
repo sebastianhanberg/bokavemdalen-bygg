@@ -12,9 +12,7 @@ function Footer() {
         <div>
           <h2 className="mb-6 text-tiny font-bold text-white uppercase dark:text-white">Om Bokavemdalen</h2>
 
-          <p className="w-56 text-white mb-12 sm:mb-0 text-xs">Exentor bygger och anpassar alltifrån bostäder, skolor, samhällsfastigheter och kommersiella
-            fastigheter i Stockholm. Vi erbjuder helhetslösningar inom entreprenad, styr och reglerteknik, projektutveckling, fastighetsunderhåll
-            och inredningssnickeri. Koncernen startade i Stockholm 1963 och omsätter cirka 20 miljoner kronor.</p>
+          <p className="w-56 text-white mb-12 sm:mb-0 text-xs">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia sit ducimus ipsa quis minus commodi? Incidunt aperiam provident eos soluta, numquam, distinctio eligendi eum veniam maxime, harum libero voluptates odio?</p>
 
         </div>
 
@@ -22,19 +20,19 @@ function Footer() {
           <h2 className="mb-6 text-tiny font-bold text-white uppercase dark:text-white">Kontaktuppgifter</h2>
 
           <p className="w-56 text-white text-xs font-semibold">Besöksadress:</p>
-          <p className="w-56 text-white text-xs">Dalagatan 37</p>
-          <p className="w-56 text-white mb-3 text-xs">113 23 STOCKHOLM</p>
+          <p className="w-56 text-white text-xs"></p>
+          <p className="w-56 text-white mb-3 text-xs">VEMDALEN</p>
 
 
           {/* <p className="w-56 text-white text-xs font-semibold">Telefonnummer:</p> */}
 
-          <p className="w-56 flex-row flex text-white text-xs mb-3"><span className="pr-2"><FaPhoneAlt /></span> 010-204 03 55</p>
+          {/* <p className="w-56 flex-row flex text-white text-xs mb-3"><span className="pr-2"><FaPhoneAlt /></span> 010-204 03 55</p> */}
 
           {/* <p className="w-56 text-white text-xs font-semibold">E-mail:</p> */}
           <a href="mailto:info@exentor.se" className="w-56 text-white mb-3 text-xs flex-row flex hover:underline cursor-pointer"><FaEnvelope className='mr-2' /> Info@exentor.se</a>
 
           <p className="w-56 text-white text-xs font-semibold">Orgnr:</p>
-          <p className="w-56 text-white text-xs">556086-6237</p>
+          <p className="w-56 text-white text-xs">559123-0882</p>
 
         </div>
 
