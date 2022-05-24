@@ -47,13 +47,13 @@ function Navbar() {
 
 
             <div class="w-full max-w-xl xl:px-8 xl:w-2/3">
-              <div class="bg-gray-light bg-opacity-75 rounded shadow-2xl p-7 sm:p-10">
-                <h3 class="mb-4 text-xl text-dark-blue font-semibold sm:text-center sm:mb-6 sm:text-3xl">
+              <div class="bg-dark-blue bg-opacity-85 rounded shadow-2xl p-7 sm:p-10">
+                <h3 class="mb-4 text-xl text-white font-semibold sm:text-center sm:mb-6 sm:text-3xl">
                   Kontakta oss för offert
                 </h3>
                 <form onSubmit={handleSubmit}>
                   <div class="mb-1 sm:mb-2">
-                    <label for="firstName" class="inline-block mb-1 text-dark-blue font-medium text-sm">Förnamn</label>
+                    <label for="firstName" class="inline-block mb-1 text-white font-medium text-sm">Förnamn</label>
                     <input
                       placeholder="Förnamn"
                       required=""
@@ -69,7 +69,7 @@ function Navbar() {
                     />
                   </div>
                   <div class="mb-1 sm:mb-2">
-                    <label for="lastName" class="inline-block mb-1 text-dark-blue font-medium text-sm">Efternamn</label>
+                    <label for="lastName" class="inline-block mb-1 text-white font-medium text-sm">Efternamn</label>
                     <input
                       placeholder="Efternamn"
                       required=""
@@ -85,7 +85,7 @@ function Navbar() {
                     />
                   </div>
                   <div class="mb-1 sm:mb-2">
-                    <label for="email" class="inline-block mb-1 text-dark-blue font-medium text-sm">E-postadress</label>
+                    <label for="email" class="inline-block mb-1 text-white font-medium text-sm">E-postadress</label>
                     <input
                       placeholder="mail@gmail.com"
                       required=""
@@ -101,7 +101,7 @@ function Navbar() {
                     />
                   </div>
                   <div class="mb-1 sm:mb-2">
-                    <label for="firstName" class="inline-block mb-1 text-dark-blue font-medium text-sm">Vad vill du ha hjälp med? </label>
+                    <label for="firstName" class="inline-block mb-1 text-white font-medium text-sm">Vad vill du ha hjälp med? </label>
                     <textarea
                       placeholder="Beskriv så noga du kan så vi kan hjälpa dig på bästa sett.."
                       required=""
@@ -120,12 +120,12 @@ function Navbar() {
                     <button
                       type="submit"
                       disabled={state.submitting}
-                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-700 rounded shadow-md bg-dark-blue hover:bg-boka-orange  focus:shadow-outline focus:outline-none"
+                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-dark-blue transition duration-700 rounded shadow-md bg-white hover:bg-boka-orange  focus:shadow-outline focus:outline-none"
                     >
                       Kontakta oss
                     </button>
                   </div>
-                  <p class="text-xs text-gray-600 sm:text-sm">
+                  <p class="text-xs text-grey sm:text-sm">
                     Alla uppgifter hanteras enligt vår <a href="#" className="underline">integritetspolicy.</a>
 
                   </p>
